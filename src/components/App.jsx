@@ -1,5 +1,7 @@
 import "../styles/index.scss"
 import Recipes from "./Recipes"
+import dog3 from "../images/dog3.png"
+import dog2 from "../images/dog2.svg"
 
 export default function App() {
   return (
@@ -9,8 +11,10 @@ export default function App() {
         <section>
           <h1>Hello react</h1>
         </section>
-      </main>
-      <Recipes/>
+        <img src={dog3} alt="dog" width="250" />
+        <img src={dog2} alt="dog" width="250" />
+        <Recipes/>
+      </main>   
     </>
   )
 }
